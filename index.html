@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home">
+      <nav>
+        <div class="primary-navigation">
+          <div class="nav-header">
+            <h1>here could be a logo</h1>
+            <div class="toggle-container">
+              <button class="btn toggle-btn">
+                <i class="fas fa-bars"></i>
+              </button>
+              <button class="theme-btn">
+                <span>light</span>
+                <span>dark</span>
+                <span class="switch"></span>
+              </button>
+              <a href="./cart.html">
+                <div class="cart-icon">
+                  <i class="fa-solid fa-cart-arrow-down"></i>
+                  <div id="cartAmount" class="cartAmount">0</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="./index.html">home</a></li>
+              <li><a href="./products.html">books</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="banner">
+        <h1>books for everyone</h1>
+      </div>
+    </header>
+
+    <!-- Slider -->
+
+    <div class="title">
+      <h3>special offers</h3>
+      <div class="underline"></div>
+    </div>
+    <section class="slider">
+      <div class="slide-container"></div>
+      <div class="btn-container">
+        <button class="btn prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="btn next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Bestseller -->
+    <div class="title">
+      <h3>monthly bestsellers</h3>
+      <div class="underline"></div>
+    </div>
+
+    <section class="bestseller"></section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-section">
+        <div class="footer-links">
+          <h4>our social media</h4>
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>useful links</h4>
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="./products.html">books</a></li>
+            <li><a href="./cart.html">cart</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>contact</h4>
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-envelope"></i> email@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="./index.html"
+                ><i class="fa-solid fa-phone-flip"></i> 23-23-23</a
+              >
+            </li>
+            <li>
+              <a href="./index.html"
+                ><i class="fa-solid fa-location-dot"></i> 5 rue Pierre De
+                Coubertin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/pages/index.js" type="module"></script>
+  </body>
+</html>
